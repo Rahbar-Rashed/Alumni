@@ -1,0 +1,1 @@
+[06-Jul-2022 09:07:20 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\InfoController::VerifyMembers() in /home/fpiaabd/public_html/reg/app/Http/Controllers/InfoController.php on line 123
