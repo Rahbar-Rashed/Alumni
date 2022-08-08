@@ -17,8 +17,11 @@
 
 Route::get('/', 'InfoController@master');
 
-Route::post('store/data','InfoController@store')->name('store.data');
-Route::get('all/members','InfoController@AllMembers')->name('all.members');
+Route::post('store/member','RegistrationController@store')->name('store.member');
+Route::get('all/members','RegistrationController@AllMembers')->name('all.members');
+Route::get('edit/member/{id}','RegistrationController@EditMember');
+Route::post('update/member','RegistrationController@UpdateMember')->name('update.member');
+Route::get('view/member/{id}','RegistrationController@ViewMembers');
 Route::get('all/unvermembers','InfoController@AllUnverifiedMembers')->name('all.unvermembers');
 Route::get('all/vermembers','InfoController@AllVerifiedMembers')->name('all.vermembers');
 Route::get('all/genseccenexcompendingmembers','InfoController@AllGenSecPendingMembers')->name('all.genseccenexcompendingmembers');
@@ -30,7 +33,7 @@ Route::post('to/verify','InfoController@ToVerify')->name('to.verify');
 Route::post('to/signgemem','InfoController@Tosigngemem')->name('to.signgemem');
 
 
-Route::get('view/member/{id}','InfoController@ViewMembers');
+
 
 Auth::routes();
 

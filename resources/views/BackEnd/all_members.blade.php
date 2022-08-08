@@ -16,9 +16,9 @@
                     <thead>
                     <tr>
                         <th>SL</th>
-                        <th>Name</th>
-                        <th>Home District</th>
-                        <th>Phone Number</th>
+                        <th>Full Name</th>
+                        <th>Mobile Number</th>
+                        <th>Email</th>
 
                         <th>Action</th>
                     </tr>
@@ -29,9 +29,9 @@
                         @foreach($all_members as $key => $value)
                             <tr>
                                 <td>{{ $key+1 }}</td>
-                                <td>{{ $value->NameInEnglish }}</td>
-                                <td>{{ $value->HomeDistrict }}</td>
-                                <td>{{ $value->PhoneNumber }}</td>
+                                <td>{{ $value->full_name }}</td>
+                                <td>{{ $value->mobile_number }}</td>
+                                <td>{{ $value->email }}</td>
 
                                 <td class="action_btn">
 
@@ -39,14 +39,18 @@
                                         <i class="fas fa-trash"></i>
                                     </button>
 
-                                    <button class="btn btn-primary btn-circle btn-sm">
+                                    <a href="{{ URL::to('edit/member') }}/{{ $value->id }}" class="btn btn-success btn-circle btn-sm">
                                         <i class="fas fa-edit"></i>
-                                    </button>
+                                    </a>
+
+                                    <!-- <button class="btn btn-primary btn-circle btn-sm">
+                                        <i class="fas fa-edit"></i>
+                                    </button> -->
                                     <!--<a href="" class="btn btn-success btn-circle btn-sm">-->
                                     <!--    <i class="fas fa-check"></i>-->
                                     <!--</a>-->
                                     
-                                    <a href="{{ URL::to('view/member') }}/{{ $value->id }}" class="btn btn-success btn-circle btn-sm">
+                                    <a href="{{ URL::to('view/member') }}/{{ $value->id }}" class="btn btn-primary btn-circle btn-sm">
                                         <i class="fas fa-eye"></i>
                                     </a>
                                 </td>
@@ -61,10 +65,10 @@
                     </tbody>
                     <thead>
                     <tr>
-                        <th>SL</th>
-                        <th>Name</th>
-                        <th>Home District</th>
-                        <th>Phone Number</th>
+                       <th>SL</th>
+                        <th>Full Name</th>
+                        <th>Mobile Number</th>
+                        <th>Email</th>
 
                         <th>Action</th>
                     </tr>

@@ -121,17 +121,17 @@
             </li>
 
  <!-- Divider -->
-         <hr class="sidebar-divider">
+         <!-- <hr class="sidebar-divider"> -->
 
          <!-- Heading -->
 
          <!-- Divider -->
 
-         <div class="sidebar-heading">
+         <!-- <div class="sidebar-heading">
              Click Books
-         </div>
+         </div> -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseunverified"
                    aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
@@ -144,9 +144,9 @@
 
                     </div>
                 </div>
-            </li>
+            </li> -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseverified"
                    aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
@@ -158,9 +158,9 @@
                         <a class="collapse-item" href="{{ route('all.vermembers') }}">Verified Members</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsegensec"
                    aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
@@ -172,9 +172,9 @@
                         <a class="collapse-item" href="{{ route('all.genseccenexcompendingmembers') }}">Pending Members</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
 
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseprescen"
                    aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
@@ -186,7 +186,7 @@
                         <a class="collapse-item" href="{{ route('all.prescenpendingmembers') }}">Pending Members</a>
                     </div>
                 </div>
-            </li>
+            </li> -->
          @endif
 
   <!-- Divider -->

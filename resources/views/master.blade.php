@@ -29,7 +29,7 @@
 </head>
 
 <body>
-<div class="page-wrapper bg-blue p-t-100 p-b-100 font-robo">
+<div class="page-wrapper p-t-100 p-b-100 font-robo" style="background: #DBDEEF">
     <div class="wrapper wrapper--w680" style="max-width: 807px;">
         <div class="card card-1">
             <div class="card-heading">

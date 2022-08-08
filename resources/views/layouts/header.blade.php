@@ -7,7 +7,7 @@
 
     <!-- Topbar Search -->
 
-
+<h2>Welcome to {{ Auth::user()->name }}</h2>
     <!-- Topbar Navbar -->
     <ul class="navbar-nav ml-auto">
 
