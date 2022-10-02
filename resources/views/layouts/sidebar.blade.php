@@ -26,71 +26,7 @@
 
         <hr class="sidebar-divider">
 
-
-        <div class="sidebar-heading">
-            Click Books
-        </div>
-
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsestory"
-               aria-expanded="true" aria-controls="collapsebooks">
-                <i class="fas fa-fw fa-cog"></i>
-                <span>গল্প</span>
-            </a>
-            <div id="collapsestory" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Custom Components:</h6>
-                    {{--                    <a class="collapse-item" href="buttons.html">Buttons</a>--}}
-                    {{-- <a class="collapse-item" href="{{ route('books.index') }}">School Books </a> --}}
-                    <a class="collapse-item" href="{{ URL::to('/shortStory') }}">ছোট গল্প
-                </a>
-                    <a class="collapse-item" href="{{ URL::to('/longStory') }}">বড় গল্প
-                    </a>
-                    <a class="collapse-item" href="{{ URL::to('/loveStory') }}">রোমান্সধর্মী গল্প
-                    </a>
-                </div>
-            </div>
-        </li>
-        <div class="sidebar-heading">
-            Click Books
-        </div>
-
-        <li class="nav-item">
-            <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsenovel"
-               aria-expanded="true" aria-controls="collapsebooks">
-                <i class="fas fa-fw fa-cog"></i>
-                <span>উপন্যাস</span>
-            </a>
-            <div id="collapsenovel" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-                <div class="bg-white py-2 collapse-inner rounded">
-                    <h6 class="collapse-header">Custom Components:</h6>
-                    {{--                    <a class="collapse-item" href="buttons.html">Buttons</a>--}}
-                    {{-- <a class="collapse-item" href="{{ route('books.index') }}">School Books </a> --}}
-                    <a class="collapse-item" href="{{ URL::to('/historicalNovel') }}">ঐতিহাসিক উপন্যাস
-                </a>
-                <a class="collapse-item" href="{{ URL::to('/thrillerNovel') }}">গোয়েন্দা উপন্যাস
-                </a>
-                <a class="collapse-item" href="{{ URL::to('/lovestoryNovel') }}">রোমান্সধর্মী উপন্যাস
-                </a>
-                <a class="collapse-item" href="{{ URL::to('/poeticNovel') }}">কাব্যধর্মী উপন্যাস
-                </a>
-                    <a class="collapse-item" href="{{ URL::to('/mysteriousNovel') }}">রহস্য উপন্যাস
-                    </a>
-                </div>
-            </div>
-        </li>
-
-        <div class="sidebar-heading">
-            Click Books
-        </div>
-
-
-
-
-
-
-
-                @else
+                @elseif(Auth::user()->role == 2)
                      <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
             <a class="nav-link" href="{{ route('home') }}">
@@ -104,21 +40,117 @@
         <div class="sidebar-heading">
             Click Admin
         </div>
-
         <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne"
                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Members</span>
+                    <i class="fas fa-user"></i>
+                    <span>Unapprove Members</span>
                 </a>
                 <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="{{ route('all.members') }}">All Members</a>
+                        <a class="collapse-item" href="{{ route('unapprove.members') }}">Unapprove Members</a>
                     </div>
                 </div>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseapprove"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-user"></i>
+                    <span>Ap:Mem:(Without Code)</span>
+                </a>
+                <div id="collapseapprove" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="{{ route('approve.members') }}">Approve Members</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseapproveinvite"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-user"></i>
+                    <span>Ap:Mem:(With Code)</span>
+                </a>
+                <div id="collapseapproveinvite" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="{{ route('approvemembers.invitecode') }}">Approve Members (Code)</a>
+                    </div>
+                </div>
+            </li>
+            
+           <li class="nav-item">
+            <a class="nav-link" href="{{ route('invite.other_member') }}">
+                <i class="fas fa-user-alt"></i>
+                <span>Invite Other Member</span></a>
+        </li>
+        
+        @elseif(Auth::user()->role == 3)
+            <li class="nav-item active">
+            <a class="nav-link" href="{{ route('home') }}">
+                <i class="fas fa-fw fa-tachometer-alt"></i>
+                <span>Dashboard</span></a>
+        </li>
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Click Admin
+        </div>
+        <!-- Nav Item - Pages Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseOne"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-user"></i>
+                    <span>Unapprove Members</span>
+                </a>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="{{ route('unapprove.members') }}">Unapprove Members</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseapprove"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-user"></i>
+                    <span>Ap:Mem:(Without Code)</span>
+                </a>
+                <div id="collapseapprove" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="{{ route('approve.members') }}">Approve Members</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseapproveinvite"
+                   aria-expanded="true" aria-controls="collapseTwo">
+                    <i class="fas fa-user"></i>
+                    <span>Ap:Mem:(With Code)</span>
+                </a>
+                <div id="collapseapproveinvite" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Custom Components:</h6>
+                        <a class="collapse-item" href="{{ route('approvemembers.invitecode') }}">Approve Members (Code)</a>
+                    </div>
+                </div>
+            </li>
+            
+           <li class="nav-item">
+            <a class="nav-link" href="{{ route('invite.other_member') }}">
+                <i class="fas fa-user-alt"></i>
+                <span>Invite Other Member</span></a>
+        </li>
+        
 
  <!-- Divider -->
          <!-- <hr class="sidebar-divider"> -->

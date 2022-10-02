@@ -21,7 +21,7 @@ class InfoController extends Controller
 
     public function master()
     {
-        return view('master2');
+        return view('master3');
     }
 
     /**

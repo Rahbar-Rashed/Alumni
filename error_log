@@ -1,1 +1,203 @@
 [06-Jul-2022 09:07:20 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\InfoController::VerifyMembers() in /home/fpiaabd/public_html/reg/app/Http/Controllers/InfoController.php on line 123
+[13-Aug-2022 17:11:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:11:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:11:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:12:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Cloner/Data.php(420): Symfony\Component\Var in /home/fpiaabd/public_html/50reg/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:14:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:14:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:14:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:14:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:14:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:15:37 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/fpiaabd/public_html/RegEvent/vendor/composer/platform_check.php on line 24
+[13-Aug-2022 17:15:41 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/fpiaabd/public_html/RegEvent/vendor/composer/platform_check.php on line 24
+[13-Aug-2022 17:16:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:22:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:23:26 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/fpiaabd/public_html/RegEvent/vendor/composer/platform_check.php on line 24
+[13-Aug-2022 17:23:31 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.33. in /home/fpiaabd/public_html/RegEvent/vendor/composer/platform_check.php on line 24
+[13-Aug-2022 17:23:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:24:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[13-Aug-2022 17:24:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:162
+Stack trace:
+#0 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(968): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(573): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/CliDumper.php(263): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(815): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Cloner/Data.php(420): Sym in /home/fpiaabd/public_html/RegEvent/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 162
+[23-Aug-2022 18:36:29 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/fpiaabd/public_html/RegEvent/app/Http/Controllers/RegistrationController.php on line 125
+[23-Aug-2022 18:36:29 UTC] PHP Deprecated:  The behavior of unparenthesized expressions containing both '.' and '+'/'-' will change in PHP 8: '+'/'-' will take a higher precedence in /home/fpiaabd/public_html/RegEvent/app/Http/Controllers/RegistrationController.php on line 127

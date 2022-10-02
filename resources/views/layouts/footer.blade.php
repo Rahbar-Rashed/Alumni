@@ -69,27 +69,96 @@
   <script src="{{asset('public/Admin_Panel/js/toastr.js')}}"></script>
 
 
+<script>
+  @if(Session::has('message'))
+  toastr.options =
+  {
+  	"closeButton" : true,
+  	"progressBar" : true,
+    "timeOut": "80000",
+  }
+  		toastr.success("{{ session('message') }}");
+  @endif
 
-  <script type="text/javascript">
-          @if(Session::has('message'))
-            var type = "{{ Session::get('alert-type','info') }}"
-            switch(type){
-                case 'info':
-                     toastr.info("{{ Session::get('message') }}");
-                     break;
-                case 'success':
-                     toastr.success("{{ Session::get('message') }}");
-                     break;
-                case 'warning':
-                     toastr.warning("{{ Session::get('message') }}");
-                     break;
-                case 'error':
-                     toastr.error("{{ Session::get('message') }}");
-                     break;
-            }
-            @endif
+  @if(Session::has('error'))
+  toastr.options =
+  {
+  	"closeButton" : true,
+  	"progressBar" : true
+  }
+  		toastr.error("{{ session('error') }}");
+  @endif
 
-        </script>
+  @if(Session::has('info'))
+  toastr.options =
+  {
+  	"closeButton" : true,
+  	"progressBar" : true
+  }
+  		toastr.info("{{ session('info') }}");
+  @endif
+
+  @if(Session::has('warning'))
+  toastr.options =
+  {
+  	"closeButton" : true,
+  	"progressBar" : true
+  }
+  		toastr.warning("{{ session('warning') }}");
+  @endif
+</script>
+
+<script type="text/javascript">
+
+let counts;
+counts = document.getElementById("count");
+
+    function myFunction2() 
+    {
+    counts.value = 0;
+    var checkBox = document.getElementById("checkDriver");
+    if (checkBox.checked == true){
+    value =   Number(counts.value)
+    value += 510
+    counts.value = value
+    } 
+
+  var passing_year = document.getElementById("pass_year");
+  var year = Number(passing_year.value);
+
+  if (year >= 1966 && year <= 2007) {
+    value =  Number(counts.value)
+    value += 1020
+    counts.value = value
+  } else if (year >= 2008 && year <= 2015){
+    value =   Number(counts.value)
+    value += 815
+    counts.value = value
+  } else if(year >= 2016 && year <= 2022){
+    value =   Number(counts.value)
+    value += 510
+    counts.value = value
+  } else {
+
+  }
+  
+}
+
+
+function myFunction3() {
+	
+  var checkBox = document.getElementById("checkDriver");
+  if (checkBox.checked == true){
+    value =   Number(counts.value)
+    value += 510
+    counts.value = value
+  } else {
+    value =   Number(counts.value)
+    value -= 510
+    counts.value = value
+  }
+}
+</script>
 
 </body>
 
